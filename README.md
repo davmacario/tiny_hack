@@ -73,7 +73,7 @@ MoodSip runs an **adaptive timer** based on:
 
 **Summary:** MoodSip continuously adapts drinking reminders based on stress, temperature, and actual water intake. Everything runs on **Arduino Nicla Vision**, completely offline.
 
-## Quick Start
+## Quick Start :on:
 
 ## Technologies ⚙️
 
