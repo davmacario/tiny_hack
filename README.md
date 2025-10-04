@@ -1,3 +1,6 @@
+<img src="https://github.com/davmacario/tiny_hack/blob/pitdagosti-images/img/logo.png?raw=true" width="400">
+
+
 # MoodSip - Sip Your Stress Away 🌟
 
 **MoodSip** is a smart water bottle developed by **[@pitadagosti](https://github.com/pitdagosti), [@davmacario](https://github.com/davmacario), and [@FrigaZzz](https://github.com/frigazzz)**.  
