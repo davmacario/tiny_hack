@@ -78,43 +78,34 @@ MoodSip runs an **adaptive timer** based on:
 
 **Advantage:** onboard intelligence, portable, and fully offline.
 
-## Fun Mode 🎲🍺
+## Impact & Benefits 👍🏼
+
+MoodSip is more than a gadget—it’s a tool for **public health and social impact**:
+
+- **Promotes hydration and stress management**, especially for elderly people, who are highly vulnerable to dehydration and its serious health consequences [7].    
+- Raises awareness of the **mind-body connection**: drinking water can help reduce mental tension and improve overall well-being.  
+
+By integrating **mood detection**, MoodSip goes beyond counting milliliters—it “understands” the user and adapts to their emotional and physical needs.  
+
+**Social impact:** Proper hydration can reduce hospital visits, lower healthcare costs, and improve quality of life, particularly for older adults who are disproportionately affected by dehydration. In this way, MoodSip contributes to a meaningful societal goal while providing a fun and engaging user experience.
+
+## Alcoholic games? Yes please!! 🍹🎲
 
 MoodSip can turn into a **party drinking game**:
 
 - Everyone keeps a poker face  
 - Camera detects smiles or other emotions  
-- **Red LED 🔴** lights up for the “caught” person → that player takes a sip  
+- **Red LED 🔴** lights up for the “caught” person → that player must drink
 
 Uses the same emotion detection mechanism for fun and social interaction.
-
----
-
-## Impact & Benefits 👍🏼
-
-MoodSip is more than a gadget:
-
-- **Promotes public health:** encourages hydration and stress management  
-- Supports elderly, professionals, and athletes  
-- Raises awareness of mind-body connection: drinking water can relieve mental tension  
-
-Compared to other smart bottles, MoodSip is more **holistic**: it doesn’t just count milliliters—it “understands” the user.  
-Potentially reduces dehydration-related medical visits and improves daily life and performance.
-
----
 
 ## References 📚
 
 [1]. [Dehydration: the enemy of our body](https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/)  
-[2]. [https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/](https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/)
+[2]. [This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems](https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/)
 [3]. [Hydratation](https://www.my-personaltrainer.it/disidratazione-sintomi.html)
 [4]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)
 [5]. [Relationship between fluid intake, hydration status and cortisol dynamics in healthy, young adult males](https://www.sciencedirect.com/science/article/pii/S2666497624000572)
 [6]. [The Science of Nano-Enhanced Hydration in Sports Nutrition](https://link.springer.com/chapter/10.1007/978-981-96-5471-0_3)
+[7]. [Hydration Strategies in Older Adults](https://www.mdpi.com/2072-6643/17/14/2256)
 
-
-
-3. **This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems**  
-4. **5 Best Smart Water Bottles of 2024**  
-
-Existing product references: **HidrateSpark**, **REBO** → measure water intake but not emotions. MoodSip does both: **sip your stress away!** 🌊
