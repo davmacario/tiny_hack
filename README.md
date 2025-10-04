@@ -70,17 +70,13 @@ MoodSip runs an **adaptive timer** based on:
 
 **Summary:** MoodSip continuously adapts drinking reminders based on stress, temperature, and actual water intake. Everything runs on **Arduino Nicla Vision**, completely offline.
 
----
-
 ## Technologies ⚙️
 
-- **Arduino Nicla Vision:** 2MP camera, proximity sensors, 6-axis gyroscope/accelerometer, Wi-Fi/BLE  
-- **Focoos AI:** computer vision library for facial expression recognition  
-- **Z-Ant:** open-source framework to optimize neural models on microcontrollers  
+- **[Arduino Nicla Vision](https://docs.arduino.cc/hardware/nicla-vision/):** 2MP camera, proximity sensors, 6-axis gyroscope/accelerometer, Wi-Fi/BLE  
+- **[FocoosAI](https://focoos.ai):** computer vision library for facial expression recognition  
+- **[Z-Ant](https://github.com/ZantFoundation/Z-Ant):** open-source framework to optimize neural models on microcontrollers  
 
 **Advantage:** onboard intelligence, portable, and fully offline.
-
----
 
 ## Fun Mode 🎲🍺
 
