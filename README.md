@@ -11,11 +11,11 @@ MoodSip helps you **drink smarter and manage stress**, promoting both physical a
 
 Fluid loss negatively affects the body:
 
-- **Common symptoms:** fatigue, confusion, reduced physical and mental performance  
-- **Elderly:** dehydration is widespread, increasing mortality and healthcare costs  
-- **Stress:** even mild water deprivation amplifies stress response with higher cortisol peaks  
+- **Common symptoms:** fatigue, confusion, reduced physical and mental performance 🪫 [3]  
+- **Elderly:** dehydration is widespread, increasing mortality and healthcare costs 🧑‍🦳 [4]  
+- **Stress:** even mild water deprivation amplifies stress response with higher cortisol peaks 💹 [5]  
 
-Benefits of proper hydration:
+Benefits of proper hydration [6]:
 
 - Prevents headaches  
 - Reduces fatigue  
@@ -23,31 +23,32 @@ Benefits of proper hydration:
 
 Technology can support regular hydration habits. Current smart bottles remind you to drink and track intake, but rarely consider **emotional state**. MoodSip fills this gap with a **holistic daily wellness approach**.
 
----
-
 ## Existing Solutions 🤖
 
-**HidrateSpark PRO**  
+**[HidrateSpark PRO](https://hidratespark.com/products/hidratespark-pro-32oz-smart-water-bottle?srsltid=AfmBOoqLxbZMkuoIMlOLmEquyeIBkWmz_JHxx7YUNcmM67cucT_ZqbWG)**  
 
 - SipSense sensors weigh the bottle and track every sip  
 - Bluetooth app with personalized goals  
 - Bottle lights up when it’s time to drink  
 - Focus: quantitative hydration tracking  
 
-**REBO SMART**  
+**[REBO SMART](https://www.rebo-bottle.com/?srsltid=AfmBOoqhUXy9-czE509IICU5Ty_-udnFqgqxLnc0WFIuFZnrFpd2PKXt)**  
 
 - Tracks personalized hydration via Bluetooth and app  
 - Environmental impact: "1 REBO drank = 1 plastic bottle collected from oceans"  
-- Digital reminders and hydration plans based on activity and body  
+- Digital reminders and hydration plans based on activity and body
+
+**[Other solutions](https://www.goodhousekeeping.com/home-products/g37094301/best-smart-water-bottles/)**
+
+- Recent articles on smart bottles note that these devices “can remind you to drink enough water and record how much you drink.”
+- Some models even include speakers, UV sterilization, or fitness connectivity. However, most remain focused on apps, level (or weight) sensors, and notifications.
 
 **Limitations:**  
 
-- Most focus on **water quantity and notifications**  
-- None integrate **emotion detection**  
+- Existing products mainly track **water intake** and send **reminders**  
+- They lack a real link between **hydration and emotional state**  
 
-MoodSip bridges this gap by combining **hydration tracking** and **mood sensing** for a personalized experience.
-
----
+**MoodSip** bridges this gap by combining **smart hydration tracking** with **emotion-aware feedback**, creating a more holistic and personalized experience.
 
 ## How MoodSip Works 🌡️😊
 
@@ -108,8 +109,12 @@ Potentially reduces dehydration-related medical visits and improves daily life a
 
 ## References 📚
 
-[1]. Dehydration: the enemy of our body](https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/)  
-[2]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)
+[1]. [Dehydration: the enemy of our body](https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/)  
+[2]. [https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/](https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/)
+[3]. [Hydratation](https://www.my-personaltrainer.it/disidratazione-sintomi.html)
+[4]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)
+[5]. [Relationship between fluid intake, hydration status and cortisol dynamics in healthy, young adult males](https://www.sciencedirect.com/science/article/pii/S2666497624000572)
+[6]. [The Science of Nano-Enhanced Hydration in Sports Nutrition](https://link.springer.com/chapter/10.1007/978-981-96-5471-0_3)
 
 
 
