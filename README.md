@@ -102,10 +102,10 @@ Uses the same emotion detection mechanism for fun and social interaction.
 ## References 📚
 
 [1]. [Dehydration: the enemy of our body](https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/)  
-[2]. [This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems](https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/)
-[3]. [Hydratation](https://www.my-personaltrainer.it/disidratazione-sintomi.html)
-[4]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)
-[5]. [Relationship between fluid intake, hydration status and cortisol dynamics in healthy, young adult males](https://www.sciencedirect.com/science/article/pii/S2666497624000572)
-[6]. [The Science of Nano-Enhanced Hydration in Sports Nutrition](https://link.springer.com/chapter/10.1007/978-981-96-5471-0_3)
-[7]. [Hydration Strategies in Older Adults](https://www.mdpi.com/2072-6643/17/14/2256)
+[2]. [This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems](https://www.womenshealthmag.com/health/a68130438/hydration-stress-anxiety-study/)  
+[3]. [Hydratation](https://www.my-personaltrainer.it/disidratazione-sintomi.html)  
+[4]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)  
+[5]. [Relationship between fluid intake, hydration status and cortisol dynamics in healthy, young adult males](https://www.sciencedirect.com/science/article/pii/S2666497624000572)  
+[6]. [The Science of Nano-Enhanced Hydration in Sports Nutrition](https://link.springer.com/chapter/10.1007/978-981-96-5471-0_3)  
+[7]. [Hydration Strategies in Older Adults](https://www.mdpi.com/2072-6643/17/14/2256)  
 
