@@ -14,11 +14,11 @@ The device also monitors your stress level—detecting emotions such as sadness,
 
 Using its onboard accelerometer and gyroscope, the bottle can also detect when you pick up or tilt it, confirming that you are actually drinking.
 
-![Application architecture](./assets/moodsip-architecture.png)
+![Application architecture](../assets/moodsip-architecture.png)
 
 #### Facial expression analysis
 
-![Decision Strategy](./assets/classification-model.png)
+![Decision Strategy](../assets/classification-model.png)
 
 Facial expression analysis is carried out by a combination of both onboard models (powered by [Focoos AI](https://focoos.ai) and [Z-Ant](https://github.com/ZantFoundation/Z-Ant)), and Gemini 2.5 Flash, running in the cloud.
 
