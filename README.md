@@ -1,4 +1,4 @@
-<img src="https://github.com/davmacario/tiny_hack/blob/pitdagosti-images/img/logo.png?raw=true" width="400">
+<img src="https://github.com/davmacario/tiny_hack/blob/main/img/logo.png?raw=true" width="400">
 
 
 # MoodSip - Sip Your Stress Away 🌟
