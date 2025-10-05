@@ -28,6 +28,8 @@ The clasification dataset used for the model is MIT Indoor Scene Recognition (on
 
 2. Mood Analysis via Companion App – When connected to the MoodSip Companion App, a cloud-based AI (Gemini 2.5 Flash) analyzes the user’s facial expressions to assess stress or mood, confirming whether a hydration prompt is needed.
 
+The communication is done thorugh BLE.
+
 The onboard models are used to detect whether the user is present and sitting in front of the bottle.
 
 We then delegate the "heavy lifting" to the more performant AI model that can tell us whether the user is stressed or not more accurately.
