@@ -111,15 +111,11 @@ Potentially reduces dehydration-related medical visits and improves daily life a
 
 ---
 
-## Technical overview
-
-For the technical overview, see [here](./docs/software.md).
-
----
-
 ## References 📚
 
 [1]. Dehydration: the enemy of our body](<https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/>)
-[2]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204) 3. **This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems** 4. **5 Best Smart Water Bottles of 2024**
+[2]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204)
+3. **This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems**
+4. **5 Best Smart Water Bottles of 2024**
 
 Existing product references: **HidrateSpark**, **REBO** → measure water intake but not emotions. MoodSip does both: **sip your stress away!** 🌊
