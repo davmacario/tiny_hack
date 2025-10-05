@@ -26,6 +26,10 @@ The onboard models are used to detect whether the user is present and sitting in
 
 We then delegate the "heavy lifting" to the more performant AI model that can tell us whether the user is stressed or not more accurately.
 
+## Technical implementation
+
+The models
+
 ### Key Features
 
 - **Computer Vision** – Detects facial expression using a combination of onboard vision models and hosted AI.
