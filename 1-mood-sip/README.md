@@ -2,6 +2,8 @@
 
 ![Logo](./assets/logo.png)
 
+A [video presentation can be seen here](https://youtu.be/YI3l9gEI9GM).
+
 **MoodSip** is a smart water bottle developed by **[@pitadagosti](https://github.com/pitdagosti), [@davmacario](https://github.com/davmacario), and [@FrigaZzz](https://github.com/frigazzz)**.
 It integrates an **Arduino Nicla Vision** to adapt your hydration rhythm to your needs, combining **water tracking** and **emotion detection** 💆.
 
