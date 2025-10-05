@@ -28,7 +28,9 @@ We then delegate the "heavy lifting" to the more performant AI model that can te
 
 ## Technical implementation
 
-The models
+The vision model running on the board has been trained using the Focoos AI SDK, and then quantized to 8 bits.
+
+The deployment was carried out using Z-Ant.
 
 ### Key Features
 
