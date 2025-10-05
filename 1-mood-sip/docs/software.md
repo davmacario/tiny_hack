@@ -2,17 +2,17 @@
 
 ## Overview
 
-The **Smart Bottle** is an intelligent hydration assistant built on the **Arduino Nicla Vision** board. It proactively suggests when you should drink water by combining multiple data sources: computer‑vision models, stress detection, motion sensors, and ambient temperature.
+MoodSip is an **smart assistant** for intelligent hydratation based on the user feelings and needs. It is built on the **Arduino Nicla Vision** board. It proactively suggests when you should drink water by combining multiple data sources: computer‑vision models, stress detection, motion sensors, and ambient temperature.
 
 ### Strategy
 
 Place the bottle on your desk while working.
 Its internal timer starts automatically, taking into account the current external temperature and the duration of your last drinking break.
 
-When the timer reaches zero, the bottle blinks its onboard LED on the Nicla Vision, providing a visual notification.
-The device also monitors your stress level—detecting emotions such as sadness, anger, or fatigue—and will shorten the remaining time accordingly, prompting a quicker drink.
+When the timer reaches zero, the bottle blinks its onboard blue LED on the Nicla Vision, providing a clear visual reminder to drink.
+MoodSip also monitors the user’s stress level—detecting emotions such as fatigue, anger, or sadness—and can shorten the remaining timer accordingly, encouraging faster hydration.
 
-Using its onboard accelerometer and gyroscope, the bottle can also detect when you pick up or tilt it, confirming that you are actually drinking.
+Using its onboard accelerometer, the bottle can also detect when you pick up or tilt it, confirming that you are actually drinking.
 
 ![Application architecture](../assets/moodsip-architecture.png)
 
@@ -20,7 +20,13 @@ Using its onboard accelerometer and gyroscope, the bottle can also detect when y
 
 ![Decision Strategy](../assets/classification-model.png)
 
-Facial expression analysis is carried out by a combination of both onboard models (powered by [Focoos AI](https://focoos.ai) and [Z-Ant](https://github.com/ZantFoundation/Z-Ant)), and Gemini 2.5 Flash, running in the cloud.
+The implementation is structured in two stages, carried out by a combination of both onboard models (powered by [Focoos AI](https://focoos.ai) and [Z-Ant](https://github.com/ZantFoundation/Z-Ant)) Facial expression analysis is , and LLM, running in the cloud.
+
+1. Onboard Monitoring – The Nicla Vision camera continuously observes the user and tracks environmental factors as well as previous drinking patterns. Using a classification model, it detects whether a person is present, standing near, or sitting in front of the bottle.
+
+The clasification dataset used for the model is MIT Indoor Scene Recognition (on Roboflow) and Celebrity face Image Dataset (on Kaggle).
+
+2. Mood Analysis via Companion App – When connected to the MoodSip Companion App, a cloud-based AI (Gemini 2.5 Flash) analyzes the user’s facial expressions to assess stress or mood, confirming whether a hydration prompt is needed.
 
 The onboard models are used to detect whether the user is present and sitting in front of the bottle.
 
