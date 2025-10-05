@@ -1,45 +1,125 @@
-# Mood Sip
+# MoodSip - Sip Your Stress Away 🌟
 
-> Mood Sip is your new favorite hydration assistant!
+![Logo](./assets/logo.png)
 
-## Overview
+**MoodSip** is a smart water bottle developed by **[@pitadagosti](https://github.com/pitdagosti), [@davmacario](https://github.com/davmacario), and [@FrigaZzz](https://github.com/frigazzz)**.
+It integrates an **Arduino Nicla Vision** to adapt your hydration rhythm to your needs, combining **water tracking** and **emotion detection** 💆.
 
-The **Smart Bottle** is an intelligent hydration assistant built on the **Arduino Nicla Vision** board. It proactively suggests when you should drink water by combining multiple data sources: computer‑vision models, stress detection, motion sensors, and ambient temperature.
+Studies show that even mild dehydration can reduce concentration, cause fatigue, and irritability [1]. Proper hydration can reduce cortisol spikes under stress [2] and improve physical and mental well-being.
 
-### Strategy
+MoodSip helps you **drink smarter and manage stress**, promoting both physical and mental health.
 
-Place the bottle on your desk while working.
-Its internal timer starts automatically, taking into account the current external temperature and the duration of your last drinking break.
+## Hydration Matters 💧
 
-When the timer reaches zero, the bottle blinks its onboard LED on the Nicla Vision, providing a visual notification.
-The device also monitors your stress level—detecting emotions such as sadness, anger, or fatigue—and will shorten the remaining time accordingly, prompting a quicker drink.
+Fluid loss negatively affects the body:
 
-Using its onboard accelerometer and gyroscope, the bottle can also detect when you pick up or tilt it, confirming that you are actually drinking.
+- **Common symptoms:** fatigue, confusion, reduced physical and mental performance
+- **Elderly:** dehydration is widespread, increasing mortality and healthcare costs
+- **Stress:** even mild water deprivation amplifies stress response with higher cortisol peaks
 
-![Application architecture](./assets/moodsip-architecture.png)
+Benefits of proper hydration:
 
-#### Facial expression analysis
+- Prevents headaches
+- Reduces fatigue
+- Improves skin and cognitive performance
 
-![Decision Strategy](./assets/classification-model.png)
+Technology can support regular hydration habits. Current smart bottles remind you to drink and track intake, but rarely consider **emotional state**. MoodSip fills this gap with a **holistic daily wellness approach**.
 
-Facial expression analysis is carried out by a combination of both onboard models (powered by [Focoos AI](https://focoos.ai) and [Z-Ant](https://github.com/ZantFoundation/Z-Ant)), and Gemini 2.5 Flash, running in the cloud.
+---
 
-The onboard models are used to detect whether the user is present and sitting in front of the bottle.
+## Existing Solutions 🤖
 
-We then delegate the "heavy lifting" to the more performant AI model that can tell us whether the user is stressed or not more accurately.
+**HidrateSpark PRO**
 
-### Key Features
+- SipSense sensors weigh the bottle and track every sip
+- Bluetooth app with personalized goals
+- Bottle lights up when it’s time to drink
+- Focus: quantitative hydration tracking
 
-- **Computer Vision** – Detects facial expression using a combination of onboard vision models and hosted AI.
-- **Temperature Sensing** – Monitors ambient temperature to recommend extra hydration during hot conditions.
-- **Bluetooth Low Energy** – Enables communication from the Nicla Vision board.
-- **Motion & Orientation** – Accelerometer and gyroscope track shaking and tilting to understand when the user is drinking.
+**REBO SMART**
 
-## Software Stack
+- Tracks personalized hydration via Bluetooth and app
+- Environmental impact: "1 REBO drank = 1 plastic bottle collected from oceans"
+- Digital reminders and hydration plans based on activity and body
 
-| Layer             | Technology       | Purpose                                               |
-| ----------------- | ---------------- | ----------------------------------------------------- |
-| Firmware          | Arduino IDE      | Core logic, sensor reading, BLE communication         |
-| Computer‑Vision   | Focoos AI        | Detect the user when in view of the camera            |
-| Vision deployment | Z-Ant            | Deploy quantized vision model to Arduino Nicla Vision |
-| AI Model          | Gemini 2.5 Flash | Predict stress from facial expressions                |
+**Limitations:**
+
+- Most focus on **water quantity and notifications**
+- None integrate **emotion detection**
+
+MoodSip bridges this gap by combining **hydration tracking** and **mood sensing** for a personalized experience.
+
+---
+
+## How MoodSip Works 🌡️😊
+
+MoodSip runs an **adaptive timer** based on:
+
+### 1. Facial Expressions (Stress)
+
+- **Nicla Vision camera** captures the user’s face
+- ML model (FocoosAI) detects signs of stress (e.g., furrowed brows, tired eyes)
+- If stress is detected, the LED turns **red 🔴** and the drinking reminder accelerates
+
+### 2. Ambient Temperature
+
+- Sensor measures temperature and humidity
+- In hot or humid conditions, the timer shortens to encourage more frequent drinking
+
+### 3. Drinking Duration
+
+- LED turns **blue 🔵** when it’s time to drink
+- Proximity and gyroscope sensors estimate water intake
+- If intake is low, the next timer is shortened to encourage proper hydration
+
+**Summary:** MoodSip continuously adapts drinking reminders based on stress, temperature, and actual water intake. Everything runs on **Arduino Nicla Vision**, completely offline.
+
+---
+
+## Technologies ⚙️
+
+- **Arduino Nicla Vision:** 2MP camera, proximity sensors, 6-axis gyroscope/accelerometer, Wi-Fi/BLE
+- **Focoos AI:** computer vision library for facial expression recognition
+- **Z-Ant:** open-source framework to optimize neural models on microcontrollers
+
+**Advantage:** onboard intelligence, portable, and fully offline.
+
+---
+
+## Fun Mode 🎲🍺
+
+MoodSip can turn into a **party drinking game**:
+
+- Everyone keeps a poker face
+- Camera detects smiles or other emotions
+- **Red LED 🔴** lights up for the “caught” person → that player takes a sip
+
+Uses the same emotion detection mechanism for fun and social interaction.
+
+---
+
+## Impact & Benefits 👍🏼
+
+MoodSip is more than a gadget:
+
+- **Promotes public health:** encourages hydration and stress management
+- Supports elderly, professionals, and athletes
+- Raises awareness of mind-body connection: drinking water can relieve mental tension
+
+Compared to other smart bottles, MoodSip is more **holistic**: it doesn’t just count milliliters—it “understands” the user.
+Potentially reduces dehydration-related medical visits and improves daily life and performance.
+
+---
+
+## Technical overview
+
+For the technical overview, see [here](./docs/software.md).
+
+---
+
+## References 📚
+
+[1]. Dehydration: the enemy of our body](<https://medimutua.org/disidratazione-il-nemico-del-nostro-organismo/>)
+[2]. [Trends in Dehydration in Older People](https://www.mdpi.com/2072-6643/17/2/204) 3. **This Simple Everyday Health Tweak Can Help Reduce Anxiety And Future Health Problems** 4. **5 Best Smart Water Bottles of 2024**
+
+Existing product references: **HidrateSpark**, **REBO** → measure water intake but not emotions. MoodSip does both: **sip your stress away!** 🌊
